@@ -1,0 +1,19 @@
+{
+  "name": "sketchpacks-fieldguide",
+  "version": "1.0.0",
+  "description": "Sketchpacks Design Pattern Field Guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamkirkwood/sketchpacks-fieldguide.git"
+  },
+  "author": "Adam Kirkwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamkirkwood/sketchpacks-fieldguide/issues"
+  },
+  "homepage": "https://github.com/adamkirkwood/sketchpacks-fieldguide#readme"
+}
