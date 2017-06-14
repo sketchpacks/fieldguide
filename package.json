@@ -20,8 +20,14 @@
   "homepage": "https://github.com/adamkirkwood/sketchpacks-fieldguide#readme",
   "dependencies": {
     "@storybook/cli": "^3.0.1",
+    "css-loader": "^0.28.4",
+    "iotacss": "^1.1.1",
+    "iotacss-components-button": "^1.0.3",
+    "node-sass": "^4.5.3",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.2"
   },
   "devDependencies": {
     "@storybook/react": "^3.0.1"
