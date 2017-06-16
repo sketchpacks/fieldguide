@@ -11,7 +11,7 @@ $iota-global-columns: 2, 3, 6;
 
 
 /**
- * Global namespace for Objects, Components and 
+ * Global namespace for Objects, Components and
  * Utilities
  *
  * Type: String
@@ -31,7 +31,7 @@ $iota-global-components-namespace : 'c-';
  * Type: Number / List / Map
  */
 
-$iota-global-gutter-default: 10px;
+$iota-global-gutter-default: 12px;
 
 
 /**
@@ -94,4 +94,4 @@ $iota-global-breakpoint-separator: \@;
 $iota-global-delimiter: \/;
 
 
-@import 'node_modules/iotacss/settings/core';
+@import '~iotacss/settings/core';

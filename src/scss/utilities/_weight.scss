@@ -4,7 +4,10 @@
  * Type: Map
  */
 
-$iota-utils-weight-sizes: ();
+$iota-utils-weight-sizes: (
+  light: 300,
+  bold: 600
+);
 
 
 /**
@@ -16,4 +19,4 @@ $iota-utils-weight-sizes: ();
 $iota-utils-weight-namespace: 'weight-';
 
 
-@import 'node_modules/iotacss/utilities/weight';
+@import '~iotacss/utilities/weight';
