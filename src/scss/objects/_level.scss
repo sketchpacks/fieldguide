@@ -1,0 +1,13 @@
+.o-level {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &--right {
+    justify-content: flex-end;
+  }
+
+  &--baseline {
+    align-items: baseline;
+  }
+}

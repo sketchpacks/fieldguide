@@ -39,7 +39,11 @@ $iota-objs-media-gutter-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-objs-media-gutter-extra: ();
+$iota-objs-media-gutter-extra: (
+  large: 24px,
+  xlarge: 48px,
+  xxlarge: 64px
+);
 
 
 /**
@@ -87,3 +91,7 @@ $iota-objs-media-responsive-name    : 'res';
 
 
 @import '~iotacss/objects/media';
+
+.o-media--middle {
+  align-items: center !important;
+}

@@ -5,8 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -24,13 +24,11 @@
     "iotacss": "^1.1.1",
     "iotacss-components-button": "^1.0.3",
     "node-sass": "^4.5.3",
+    "open-color": "^1.5.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.2"
-  },
-  "devDependencies": {
-    "@storybook/react": "^3.0.1"
   },
   "devDependencies": {
     "next": "*"

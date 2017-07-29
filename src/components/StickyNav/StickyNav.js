@@ -1,12 +1,14 @@
 import * as React from 'react'
+import classNames from 'classnames'
 
 export default ({ children, onClick, className }) => {
   return (
-    <button
-      className={`c-button ${className}`}
-      onClick={onClick}
+    <div
+      className={ classNames('c-stickynav', className) }
     >
+
       { children }
-    </button>
+
+    </div>
   )
 }

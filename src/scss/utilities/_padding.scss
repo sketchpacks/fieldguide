@@ -7,6 +7,11 @@
 
 $iota-utils-padding-default: $iota-global-gutter-default;
 
+// $iota-utils-padding-default: (
+//   sm  : 20px,
+//   lg  : 100px
+// )
+
 
 /**
  * Padding extra gutters.
@@ -14,7 +19,13 @@ $iota-utils-padding-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-utils-padding-extra: ();
+$iota-utils-padding-extra: (
+  -xsmall: 8px,
+  -small: 16px,
+  -medium: 32px,
+  -large: 48px,
+  -mega: 200px
+);
 
 
 /**
@@ -23,7 +34,7 @@ $iota-utils-padding-extra: ();
  * Type: Boolean
  */
 
-$iota-utils-padding-res: false;
+$iota-utils-padding-res: true;
 
 
 /**

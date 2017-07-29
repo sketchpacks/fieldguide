@@ -1,0 +1,16 @@
+.o-tabs {
+  display: flex;
+  flex-direction: row;
+
+  & > .o-tab + .o-tab {
+    margin-left: 36px;
+  }
+}
+
+.o-tab {
+  border-bottom: 4px solid transparent;
+
+  &--active {
+    border-bottom: 4px solid blue;
+  }
+}

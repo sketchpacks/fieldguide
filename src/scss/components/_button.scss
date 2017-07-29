@@ -48,3 +48,12 @@ $iota-components-button-var-button: $iota-global-components-namespace + $iota-co
 .#{$iota-components-button-var-button}--primary {
   min-width: 16rem;
 }
+
+.#{$iota-components-button-var-button}--wide {
+  min-width: 12rem;
+}
+
+.#{$iota-components-button-var-button}--block {
+  display: block;
+  width: 100% !important;
+}

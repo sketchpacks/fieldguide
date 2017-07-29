@@ -1,0 +1,7 @@
+.o-hero {
+  display: block;
+  
+  & > * + * {
+    margin-top: 1.0rem;
+  }
+}

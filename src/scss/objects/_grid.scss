@@ -8,7 +8,7 @@
  * Type: Boolean
  */
 
-$iota-objs-grid-aligned: false;
+$iota-objs-grid-aligned: true;
 
 
 /**
@@ -25,7 +25,7 @@ $iota-objs-grid-rev: false;
  * Default gutter size. Use a number for a single size or
  * a map for a responsive size.
  *
- * Type: Number / Map 
+ * Type: Number / Map
  */
 
 $iota-objs-grid-gutter-default: $iota-global-gutter-default;
@@ -42,12 +42,16 @@ $iota-objs-grid-gutter-default: $iota-global-gutter-default;
  * Type: Map
  */
 
-$iota-objs-grid-gutter-extra: ();
+$iota-objs-grid-gutter-extra: (
+  large: 24px,
+  xlarge: 48px,
+  xxlarge: 64px
+);
 
 
 /**
  * Enable / Disable flexbox on grid.
- * 
+ *
  * Type: Boolean
  */
 
@@ -75,7 +79,6 @@ $iota-objs-grid-column-name       : 'col';
 $iota-objs-grid-align-right-name  : 'right';
 $iota-objs-grid-align-center-name : 'center';
 $iota-objs-grid-align-top-name    : 'top';
-$iota-objs-grid-namespace         : 'grid';
 
 
 @import '~iotacss/objects/grid';

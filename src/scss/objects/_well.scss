@@ -1,0 +1,8 @@
+.o-well {
+  border: 1px solid $oc-gray-3;
+  border-radius: 3px;
+
+  & > p + p {
+    margin-top: 1.0rem;
+  }
+}
