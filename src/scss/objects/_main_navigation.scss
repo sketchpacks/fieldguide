@@ -6,4 +6,22 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+
+  & svg {
+    display: block;
+  }
+
+  &__branding {
+    height: 32px;
+    align-items: baseline;
+  }
+}
+
+.o-separator--right {
+  border-right: 1px solid $oc-gray-3;
+}
+
+.o-nav__item {
+  line-height: 32px;
 }
