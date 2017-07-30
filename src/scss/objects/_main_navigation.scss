@@ -14,14 +14,21 @@
 
   &__branding {
     height: 32px;
-    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
 .o-separator--right {
-  border-right: 1px solid $oc-gray-3;
+  border-right: 1px solid $oc-gray-6;
 }
 
 .o-nav__item {
   line-height: 32px;
+
+  a {
+    color: $oc-gray-0;
+    text-decoration: none;
+  }
 }
