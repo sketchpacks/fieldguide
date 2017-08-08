@@ -1,5 +1,5 @@
 {
-  "name": "sketchpacks-fieldguide",
+  "name": "@sketchpacks/fieldguide",
   "version": "1.0.0",
   "description": "Sketchpacks Design Pattern Field Guide",
   "main": "./src/index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamkirkwood/sketchpacks-fieldguide.git"
+    "url": "git+https://github.com/sketchpacks/fieldguide.git"
   },
   "author": "Adam Kirkwood",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adamkirkwood/sketchpacks-fieldguide/issues"
+    "url": "https://github.com/sketchpacks/fieldguide/issues"
   },
-  "homepage": "https://github.com/adamkirkwood/sketchpacks-fieldguide#readme",
+  "homepage": "https://github.com/sketchpacks/fieldguide#readme",
   "dependencies": {
     "@storybook/cli": "^3.0.1",
     "css-loader": "^0.28.4",
