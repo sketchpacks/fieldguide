@@ -1,5 +1,5 @@
 {
-  "name": "@sketchpacks/fieldguide",
+  "name": "sketchpacks-fieldguide",
   "version": "1.0.0",
   "description": "Sketchpacks Design Pattern Field Guide",
   "main": "./src/index.js",
