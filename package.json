@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sketchpacks/fieldguide.git"
+    "url": "git@github.com:sketchpacks/fieldguide.git"
   },
   "author": "Adam Kirkwood",
   "license": "MIT",
